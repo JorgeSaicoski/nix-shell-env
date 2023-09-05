@@ -1,0 +1,47 @@
+# NixShell Configurations
+
+This repository contains a set of NixShell configurations for different development environments. These configurations are designed to be isolated from each other to prevent conflicts when switching between environments. Each NixShell configuration provides a consistent and reproducible development environment for its respective technology stack.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Configurations](#configurations)
+  - [Node.js with Angular and Nest.js](#nodejs-with-angular-and-nestjs)
+  - [Node.js with React and Express.js](#nodejs-with-react-and-expressjs)
+  - [Go with Vue.js](#go-with-vuejs)
+  - [Java](#java)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
+This repository aims to simplify development environment setup by providing isolated NixShell configurations for different technology stacks. You can quickly switch between environments without worrying about conflicts between packages or dependencies.
+
+## Configurations
+
+### Node.js with Angular and Nest.js
+
+- Description: Development environment for Node.js with Angular frontend and Nest.js backend.
+- [Link to Configuration](./node/node-angular-nest.nix)
+
+
+## Getting Started
+
+To get started with a specific development environment, follow the instructions provided in the respective configuration folders linked above.
+
+## Usage
+
+- Describe how to use or switch between different NixShell configurations.
+- Provide any additional usage information as needed.
+
+## Contributing
+
+- Explain how others can contribute to the project, such as by creating new configurations or improving existing ones.
+- Include guidelines for coding standards, testing, and documentation.
+
+## License
+
+This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE.md) file for details.
+
