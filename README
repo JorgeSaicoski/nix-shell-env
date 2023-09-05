@@ -7,9 +7,6 @@ This repository contains a set of NixShell configurations for different developm
 - [Introduction](#introduction)
 - [Configurations](#configurations)
   - [Node.js with Angular and Nest.js](#nodejs-with-angular-and-nestjs)
-  - [Node.js with React and Express.js](#nodejs-with-react-and-expressjs)
-  - [Go with Vue.js](#go-with-vuejs)
-  - [Java](#java)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -19,7 +16,6 @@ This repository contains a set of NixShell configurations for different developm
 
 This repository aims to simplify development environment setup by providing isolated NixShell configurations for different technology stacks. You can quickly switch between environments without worrying about conflicts between packages or dependencies.
 
-## Configurations
 
 ### Node.js with Angular and Nest.js
 
@@ -29,19 +25,37 @@ This repository aims to simplify development environment setup by providing isol
 
 ## Getting Started
 
-To get started with a specific development environment, follow the instructions provided in the respective configuration folders linked above.
+Before you begin, ensure that you have the Nix Package Manager installed on your computer. If not, you can install it by following the instructions [here](https://nixos.org/).
 
 ## Usage
 
-- Describe how to use or switch between different NixShell configurations.
-- Provide any additional usage information as needed.
+1. Choose the configuration that corresponds to your desired development environment from the `configurations` directory.
+
+2. Navigate to the selected configuration's directory.
+
+3. Run the following command to activate the NixShell for your chosen environment:
+
+```
+nix-shell
+```
+
+This will provide you with an isolated development environment containing all the required packages and dependencies.
 
 ## Contributing
 
-- Explain how others can contribute to the project, such as by creating new configurations or improving existing ones.
-- Include guidelines for coding standards, testing, and documentation.
+We welcome contributions to this repository. To add a new NixShell configuration, follow these steps:
+
+1. Fork this repository.
+
+2. Create a new folder for your configuration within the `configurations` directory.
+
+3. Place your NixShell configuration file inside the new folder.
+
+4. Update the README to include details about your configuration in the "Configurations" section.
+
+5. Create a pull request to merge your changes into the main repository.
 
 ## License
 
-This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE.md) file for details.
+This project is open-source and available under the [LICENSE NAME] license. For more details, please refer to the [LICENSE.md](LICENSE.md) file.
 
