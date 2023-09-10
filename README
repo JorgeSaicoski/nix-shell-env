@@ -20,7 +20,12 @@ This repository aims to simplify development environment setup by providing isol
 ### Node.js with Angular and Nest.js
 
 - Description: Development environment for Node.js with Angular frontend and Nest.js backend.
-- [Link to Configuration](./node/node-angular-nest.nix)
+- [Link to Configuration](./node/node-angular-nest)
+
+### Docker
+
+- Description: Create Docker files and docker compose and run it.
+- [Link to Configuration](./docker)
 
 
 ## Getting Started
